@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "rohit-test"
+  annotations:
+    "humanitec.com/orgId": "htc-demo-14"
+    "humanitec.com/appId": "rohit-test"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
